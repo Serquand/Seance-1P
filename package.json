@@ -1,0 +1,28 @@
+{
+  "name": "seance-1p",
+  "version": "1.0.0",
+  "description": "La définition de la flemme...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serquand/Seance-1P.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serquand/Seance-1P/issues"
+  },
+  "homepage": "https://github.com/Serquand/Seance-1P#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.7.1",
+    "dotenv": "^16.0.3",
+    "glob": "^8.1.0",
+    "mysql2": "^3.2.1",
+    "sequelize": "^6.29.0"
+  }
+}
