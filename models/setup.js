@@ -1,7 +1,9 @@
-const course = require("./course");
+const Course = require("./course");
+const Creator = require("./Creator");
 
 const setup = async () => {
-    await course.sync();
+    await Course.sync();
+    await Creator.sync();
 }
 
 module.exports = setup;
